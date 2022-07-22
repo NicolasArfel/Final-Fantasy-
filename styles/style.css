@@ -78,12 +78,29 @@ main {
 .image__section {
    border-bottom: 1px solid var(--ligth-grey);
    color: var(--ligth-grey);
+   position: relative;
 }
 
 .image__title {
     padding: 0.5rem 0.3rem;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.image__reduction {
+    border: 3px solid var(--ligth-grey);
+    background-color: var(--dark-grey);
+    color: white;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: 1.2rem 0.8rem 0 0.4rem;
+    
 }
 
 .description {
