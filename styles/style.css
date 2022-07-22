@@ -61,7 +61,7 @@ main {
     justify-content: center;
 }
 
-.card__section {
+.card {
     display: flex;
     flex-direction: column;
     margin: 2rem 1rem;
@@ -96,7 +96,7 @@ main {
     padding-bottom: 1rem;
 }
 
-.cart__section {
+.cart {
     background-color: var(--red);
     display: flex;
     justify-content: space-between;
